@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.body{
+    font-family: 'Courier';
+    padding: 90px 20px 0;
+    background-color: #F3DCF0
+}
+.header{
+    background-color: #8A1583; 
+    height: 100px;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.nav{
+    display: flex; 
+    justify-content: space-between;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.nav-link{
+    color: white;
+    text-decoration: none;
+}
+
+.logo{
+    font-size: 20px;
+    font-weight: bold;
+    padding: 0 40px;
+    line-height: 110px;
+}
+
+.nav-menu{
+    display: flex;
+    margin-right: 40px;
+    list-style: none;
+}
+
+.nav-menu-item{
+    font-size: 15px;
+    margin: 0 10px;
+    line-height: 100px;
+    text-transform: uppercase;
+    width: max-content;
+}
+
+.nav-menu-link{
+    padding: 8px 12px;
+    border-radius: 3px;
+}
+
+.nav-menu-link:hover{
+    background-color: #F3DCF0;
+    transition: 0.5s;
+}
